@@ -13,7 +13,7 @@ public class TravelTime {
         System.out.println("Время в пути без пробок " + travelTime + " ч.");
 
         double indexRetard = 1.7;
-        System.out.println("Коэффицент замедления транспорта вечером" + indexRetard);
+        System.out.println("Коэффицент замедления транспорта вечером " + indexRetard);
 
         double travelTimePileup = travelTime * indexRetard;
         System.out.println("Время в пути с пробками " + travelTimePileup + " ч.");
